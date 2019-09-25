@@ -111,7 +111,7 @@ LiteIDE源码位于<https://github.com/visualfc/liteide>上。需要使用Qt4/Qt
 	$ export QTDIR=$HOME/QtSDK/Desktop/Qt/484/gcc #如果Qt是通过brew安装，输入: export QTDIR=/usr/local/Cellar/qt/4.8.6
 	$ cd liteide/build
 	$ ./update_pkg.sh
-	$ ./build_maoos_qt4.sh
+	$ ./build_macos_qt4.sh
 	$ ./deploy_macos_qt4.sh
 	$ open liteide/LiteIDE.app
 
